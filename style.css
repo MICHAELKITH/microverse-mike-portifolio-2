@@ -64,12 +64,13 @@ ul {
   line-height: 20px;
 }
 
-h2 {
+.social-links{
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 20px;
 }
 
 .icons {
@@ -136,45 +137,17 @@ h2 {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  height: 72vh;
+  height: 85vh;
+
 }
 
-.image {
-  background-image: url("images/Snapshoot\ Portfolio\ 2.png");
+.image{
   width: 100%;
   height: 100%;
   border-radius: 8px;
   top: 16px;
   left: 16px;
 }
-
-.image1 {
-  background-image: url("images/Snapshoot\ Portfolio\ \(1\).png");
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  top: 16px;
-  left: 16px;
-}
-
-.image2 {
-  background-image: url("images/Snapshoot\ Portfolio\ 3.png");
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  top: 16px;
-  left: 16px;
-}
-
-.image3 {
-  background-image: url("images/Snapshoot\ Portfolio\ 4.png");
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  top: 16px;
-  left: 16px;
-}
-
 .post {
   width: 295px;
   height: 80px;
@@ -194,7 +167,7 @@ h2 {
   width: 55px;
   height: 16px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 16px;
   color: #344563;
 }
@@ -228,35 +201,41 @@ h2 {
   height: 40px;
   border-radius: 20px;
   list-style: none;
-}
-
-.see-more {
-  padding-top: 20px;
-  margin-right: 65%;
+  justify-items: center; 
 }
 
 .text {
   color: #396df2;
-  width: 70px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.02em;
   background: #ebebff;
-  height: 25px;
-  border-radius: 20px;
+  height: 24px;
+  border-radius: 8px;
   margin: 20px;
   border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
 }
+
+.see-more {
+  padding-top: 25px;
+  margin-right: 65%;
+  box-sizing: border-box;
+  border-color: #396DF2;
+  border-radius: 10px;
+
+}
+
 
 .text-1 {
   color: #396df2;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   width: 100px;
   height: 35px;
   border-radius: 10px;
@@ -303,8 +282,11 @@ h2 {
 }
 
 .get-more {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   margin-right: 65%;
+  box-sizing: border-box;
+  border-color: #396DF2;
+  border-radius: 10px;
 }
 
 .about-1 {
@@ -344,4 +326,7 @@ h2 {
 
 .text-1:hover {
   background-color: #ebebff;
+}
+.p-skills{
+  padding-top: 30px;
 }
