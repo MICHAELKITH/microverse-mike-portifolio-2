@@ -11,6 +11,121 @@ body {
   background: #e5e5e5;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  color: #6070ff;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-section {
+  font-weight: 100;
+  background-image: url("images/header-shapes\ mobile.png");
+  object-fit: cover;
+  padding-top: 40px;
+  font-style: normal;
+  border-end-start-radius: 17%;
+  background-color: #fff;
+  display: block;
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.header a.icon {
+  background: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  justify-self: center;
+  padding-top: 10px;
+  color: #6070ff;
+  margin: 5px;
+  margin-right: 8%;
+}
+
+.active {
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icons {
+  display: flex;
+  align-content: center;
+  width: 100px;
+  padding-top: 20px;
+  color: #505f79;
+}
+
+.social-media {
+  flex-direction: row;
+  display: flex;
+  gap: 25px;
+  left: 10px;
+  bottom: 20%;
+  top: 80%;
+  padding-bottom: 40px;
+}
+
+.social-media:hover {
+  color: #6070ff;
+}
+
+.fa-brands {
+  left: 20%;
+  right: 80%;
+  top: 80%;
+  bottom: 20%;
+}
+
+.intro-part {
+  margin: 25px;
+}
+
+.intro {
+  display: flex;
+  width: 320px;
+  height: 140px;
+  color: #172b4d;
+  line-height: 50px;
+  font-size: 38.77px;
+  font-weight: 750;
+  align-items: center;
+}
+
+.about {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  line-height: 25px;
+  color: #344563;
+  flex-grow: 0;
+}
+
 .more-info {
   font-style: normal;
   margin: 25px;
@@ -18,28 +133,46 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  gap: 12px;
-  width: 327px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   height: 72vh;
 }
 
 .image {
-  background-image: url("images/Snapshoot\ Portfolio\ \(1\).png");
-  width: 295px;
-  height: 220px;
+  background-image: url("images/Snapshoot\ Portfolio\ 2.png");
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
   top: 16px;
   left: 16px;
 }
 
-.projects {
-  padding: 10px 10px;
+.image1 {
+  background-image: url("images/Snapshoot\ Portfolio\ \(1\).png");
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 16px;
+  left: 16px;
+}
+
+.image2 {
+  background-image: url("images/Snapshoot\ Portfolio\ 3.png");
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 16px;
+  left: 16px;
+}
+
+.image3 {
+  background-image: url("images/Snapshoot\ Portfolio\ 4.png");
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 16px;
+  left: 16px;
 }
 
 .post {
@@ -49,6 +182,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  padding-top: 18px;
 }
 
 .items {
@@ -97,24 +231,22 @@ body {
 }
 
 .see-more {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
   padding-top: 20px;
+  margin-right: 65%;
 }
 
 .text {
   color: #396df2;
-  width: 65px;
-  font-weight: 500;
+  width: 70px;
+  font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   background: #ebebff;
   height: 25px;
   border-radius: 20px;
   margin: 20px;
+  border: none;
 }
 
 .text-1 {
@@ -129,4 +261,87 @@ body {
   height: 35px;
   border-radius: 10px;
   background: #fff;
+}
+
+.About-myself {
+  margin: 25px;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  font-weight: 100;
+  font-style: normal;
+  border-start-end-radius: 28%;
+  background-color: #fff;
+  display: block;
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+}
+
+.text-2 {
+  color: #396df2;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  width: 115px;
+  height: 45px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.skills-1 {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-skills {
+  padding-top: 20px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.get-more {
+  padding-bottom: 10px;
+  margin-right: 65%;
+}
+
+.about-1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #344563;
+  flex-grow: 0;
+  padding-top: 10px;
+}
+
+.frame-works {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 100px;
+}
+
+.skills-2 {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 190px;
+}
+
+.languages {
+  display: flex;
+  padding-bottom: 10px;
+  gap: 100px;
+}
+
+.fas:hover {
+  color: #396df2;
+}
+
+.text-2:hover {
+  background-color: #ebebff;
+}
+
+.text-1:hover {
+  background-color: #ebebff;
 }
