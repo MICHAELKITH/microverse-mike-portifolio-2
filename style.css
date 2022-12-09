@@ -64,7 +64,7 @@ ul {
   line-height: 20px;
 }
 
-.social-links{
+.social-links {
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
@@ -89,7 +89,6 @@ ul {
   bottom: 20%;
   top: 80%;
   padding-bottom: 40px;
-  
 }
 
 .social-media:hover {
@@ -143,16 +142,18 @@ ul {
   height: fit-content;
 }
 
-.image{
+.image {
   width: 295px;
   height: 220px;
   border-radius: 8px;
   top: 16px;
   left: 16px;
 }
-.years{
+
+.years {
   padding-bottom: 5%;
 }
+
 .project-title {
   width: 295px;
   height: 36px;
@@ -160,14 +161,13 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
- 
 }
 
 .items {
   display: flex;
   padding-top: 22%;
-
 }
+
 .canopy {
   width: 55px;
   height: 16px;
@@ -190,16 +190,15 @@ ul {
 }
 
 .desc {
+  margin: 5px;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
   margin-bottom: 10%;
-  margin: 5px;
-
 }
 
-.skills { 
+.skills {
   display: flex;
   margin-right: 45px;
   gap: 10px;
@@ -220,22 +219,24 @@ ul {
   align-items: center;
   padding: 10px 20px;
 }
+
 .btn {
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   background-color: white;
-  color: #396DF2;
+  color: #396df2;
   font-size: 1px;
   cursor: pointer;
   padding-top: 5px;
   margin-right: 65%;
   box-sizing: border-box;
-  border-color: #396DF2;
+  border-color: #396df2;
   border-radius: 10px;
   margin-left: 10px;
   margin-top: 10px;
   width: fit-content;
-  }
-.see-more{
+}
+
+.see-more {
   font-weight: 600;
   font-size: 17px;
   line-height: 24px;
@@ -244,6 +245,7 @@ ul {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
+
 .text-1 {
   color: #396df2;
   font-weight: 500;
@@ -269,7 +271,7 @@ ul {
   border-start-end-radius: 28%;
   background-color: #fff;
   display: block;
-  height: 100%;
+  height: fit-content;
   width: 100%;
   justify-items: center;
 }
@@ -288,7 +290,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-
 .skills-1 {
   display: flexbox;
   align-items: center;
@@ -305,7 +306,7 @@ ul {
   padding-bottom: 30px;
   margin-right: 65%;
   box-sizing: border-box;
-  border-color: #396DF2;
+  border-color: #396df2;
   border-radius: 10px;
 }
 
@@ -338,10 +339,7 @@ ul {
   gap: 100px;
 }
 
-.fas:hover {
-  color: #396df2;
-}
-.fas{
+.fas {
   align-items: center;
   padding-top: 10px;
 }
@@ -353,6 +351,7 @@ ul {
 .text-1:hover {
   background-color: #ebebff;
 }
-.p-skills{
+
+.p-skills {
   padding-top: 30px;
 }
