@@ -39,7 +39,7 @@ ul {
   border-end-start-radius: 17%;
   background-color: #fff;
   display: block;
-  height: 80vh;
+  height: fit-content;
   width: 100%;
   background-size: cover;
 }
@@ -89,6 +89,7 @@ ul {
   bottom: 20%;
   top: 80%;
   padding-bottom: 40px;
+  
 }
 
 .social-media:hover {
@@ -127,42 +128,46 @@ ul {
   flex-grow: 0;
 }
 
-.more-info {
+.card-info {
   font-style: normal;
   margin: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  gap: 12px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  height: 85vh;
-
+  width: 340px;
+  height: fit-content;
 }
 
 .image{
-  width: 100%;
-  height: 100%;
+  width: 295px;
+  height: 220px;
   border-radius: 8px;
   top: 16px;
   left: 16px;
 }
-.post {
+.years{
+  padding-bottom: 5%;
+}
+.project-title {
   width: 295px;
-  height: 80px;
+  height: 36px;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding-top: 18px;
+ 
 }
 
 .items {
-  padding-top: 30px;
   display: flex;
-}
+  padding-top: 22%;
 
+}
 .canopy {
   width: 55px;
   height: 16px;
@@ -172,36 +177,32 @@ ul {
   color: #344563;
 }
 
-.Stories {
-  font-weight: 750;
+.experience {
+  font-weight: 700;
   font-size: 17px;
   line-height: 16px;
   color: #7a869a;
   display: flex;
+  gap: 30px;
   margin-left: 60px;
   align-items: center;
-  gap: 20px;
-  list-style: circle;
+  list-style: outside;
 }
 
 .desc {
-  width: 295px;
-  height: 76px;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding-top: 10px;
+  margin-bottom: 10%;
+  margin: 5px;
+
 }
 
-.skills {
+.skills { 
   display: flex;
-  align-items: center;
-  padding-top: 20px;
-  height: 40px;
-  border-radius: 20px;
-  list-style: none;
-  justify-items: center; 
+  margin-right: 45px;
+  gap: 10px;
 }
 
 .text {
@@ -213,33 +214,48 @@ ul {
   background: #ebebff;
   height: 24px;
   border-radius: 8px;
-  margin: 20px;
   border: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 10px 20px;
 }
-
-.see-more {
-  padding-top: 25px;
+.btn {
+  border: 1px solid #396DF2;
+  background-color: white;
+  color: #396DF2;
+  font-size: 1px;
+  cursor: pointer;
+  padding-top: 5px;
   margin-right: 65%;
   box-sizing: border-box;
   border-color: #396DF2;
   border-radius: 10px;
-
+  margin-left: 10px;
+  margin-top: 10px;
+  width: fit-content;
+  }
+.see-more{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
-
-
 .text-1 {
   color: #396df2;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 24px;
   width: 100px;
   height: 35px;
   border-radius: 10px;
   background: #fff;
+  border: none;
+  align-items: center;
+  letter-spacing: 0.01em;
 }
 
 .About-myself {
@@ -261,13 +277,17 @@ ul {
 .text-2 {
   color: #396df2;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
-  width: 115px;
-  height: 45px;
+  width: 150px;
+  height: 35px;
   border-radius: 10px;
   background: #fff;
+  border: none;
+  align-items: center;
+  letter-spacing: 0.03em;
 }
+
 
 .skills-1 {
   display: flexbox;
@@ -302,12 +322,14 @@ ul {
   padding-bottom: 10px;
   display: flex;
   gap: 100px;
+  padding-top: 10px;
 }
 
 .skills-2 {
   padding-bottom: 10px;
   display: flex;
   gap: 190px;
+  padding-top: 10px;
 }
 
 .languages {
@@ -318,6 +340,10 @@ ul {
 
 .fas:hover {
   color: #396df2;
+}
+.fas{
+  align-items: center;
+  padding-top: 10px;
 }
 
 .text-2:hover {
