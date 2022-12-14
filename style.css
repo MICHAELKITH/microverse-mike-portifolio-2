@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
+  --main-bg-color: #fff;
+  --header-text-color: #172b4d;
+  --normal-text-color: #344563;
+  --secondary-text-color: #6070ff;
+  --light-text-color: #7f8cff;
+  --main-font-family: 'Poppins', sans-serif;
+  --black-color: #000;
+  --background-active-button: #2230d2;
+  --button-disabled-text-color: #5e6c84;
+  --gray-background-color: #e5e5e5;
+  --gray--light-color: #f7f7f9;
+  --tag-background-color: #ebebff;
+  --button-color: #396df2;
+  --tag-color: #7a869a;
+  --footer-background: #6070ff;
+
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -354,4 +370,224 @@ ul {
 
 .p-skills {
   padding-top: 30px;
+}
+
+/* ------------------------------------------------------------HOVER-ACTIVE -DISABLED BUTTONS--------------------------------------------------------- */
+button:active {
+  background: var(--background-active-button);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+button:hover {
+  background: var(--secondary-text-color);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+button:disabled {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--button-disabled-text-color);
+}
+
+.button-action-second button:hover {
+  background: var(--secondary-text-color);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button-action-second button:active {
+  background: var(--background-active-button);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button-action-second button:disabled {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--button-disabled-text-color);
+}
+
+/* ----------------------------------------------------------FOOTER CONTACT FORM----------------------------------------------- */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  height: 779px;
+  background-image: url(Images/shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--footer-background);
+  border-radius: 70px 0 10px;
+}
+
+.contact-global-container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 801px;
+  height: 56px;
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  padding-top: 35%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 52px;
+}
+
+.contact-text-container {
+  margin-left: 100px;
+}
+
+.contact-paragraph {
+  width: 327px;
+  height: 102px;
+  color: var(--tag-background-color);
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 30px;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30%;
+  gap: 20px;
+
+  /* width: 327px; */
+}
+
+.username {
+  width: 327px;
+  height: 48px;
+  background-color: var(--main-bg-color);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d !important;
+  padding-left: 16px;
+}
+
+.email {
+  width: 327px;
+  height: 48px;
+  background-color: var(--main-bg-color);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+::placeholder {
+  color: #172b4d !important;
+}
+
+.text-area {
+  width: 327px;
+  height: 170px;
+  background-color: var(--main-bg-color);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.button-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--main-bg-color);
+  border-radius: 8px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border: 1px solid var(--main-bg-color);
+  margin-right: 190px;
+  margin-top: -10px;
+}
+
+/* -------------------------------------------FORM BUTTON HOVER-DISABLED-ACTIVE--------------------------------------------------------- */
+.button-submit:active {
+  background: var(--background-active-button);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button-submit:hover {
+  background: var(--secondary-text-color);
+  font-family: var(--main-font-family);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button-submit:disabled {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--button-disabled-text-color);
 }
